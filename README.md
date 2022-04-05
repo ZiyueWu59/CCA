@@ -30,13 +30,27 @@ We provide scripts for simplifying training and inference. Please modify corresp
 
 ## Main Results
 
-### TACoS with C3D features
+### 1.Speed-Accuracy on TACoS
+
+|Methods|TE|CML|ALL|ACC|sumACC|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|FVMR|3.51|0.14|3.65|29.12|70.60|
+|**CCA(ours)|2.33|0.29|2.62|32.83|78.13|**
+
+### 2.Speed-Accuracy on ActivityNet Captions
+
+|Methods|TE|CML|ALL|ACC|sumACC|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|FVMR|3.14|0.09|3.23|45.00|106.60|
+|**CCA(ours)|2.80|0.30|3.10|46.19|106.77|**
+
+### 3.TACoS with C3D features
 
 |R@1,IoU=0.1|R@1,IoU=0.3|R@1,IoU=0.5|R@1,IoU=0.7|R@5,IoU=0.1|R@5,IoU=0.3|R@5,IoU=0.5|R@5,IoU=0.7|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |56.00|45.30|32.83|18.07|76.60|64.38|52.68|33.10|
 
-### ActivityNet Captions with C3D features
+### 4.ActivityNet Captions with C3D features
 
 |R@1,IoU=0.3|R@1,IoU=0.5|R@1,IoU=0.7|R@5,IoU=0.3|R@5,IoU=0.5|R@5,IoU=0.7|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
