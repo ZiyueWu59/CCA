@@ -13,6 +13,19 @@ Grounding temporal video segments described in natural language queries effectiv
 ### Overview of the proposed method:
 ![framework_00](https://user-images.githubusercontent.com/102899678/161745291-fb0654f5-5e0b-46c0-b610-015b095c040f.png)
 
+## Requirements and Installation
+
+- CUDA >= 11.0
+- Python 3.7
+- torch 1.7.1
+- torchvision 0.8.2
+- torchtext
+- numpy
+- easydict
+- terminaltables
+- yacs
+- h5py
+- tqdm
 
 ## Download data
 **Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).**
