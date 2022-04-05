@@ -1,7 +1,7 @@
 # Fast Video Temporal Grounding / Fast Video Moment Retrieval
 Code for paper: **Learning Commonsense-aware Moment-Text Alignment for Fast Video Temporal Grounding**.
 
-**Paper is available [here](https://arxiv.org/abs/2204.01450)**.
+**Paper is available [here](https://arxiv.org/pdf/2204.01450.pdf)**.
 
 *Ziyue Wu, Junyu Gao, Shucheng Huang, Changsheng Xu*
 
