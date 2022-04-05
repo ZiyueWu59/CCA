@@ -1,5 +1,5 @@
 # Fast Video Temporal Grounding / Fast Video Moment Retrieval
-Code for paper (coming soon): **Learning Commonsense-aware Moment-Text Alignment for Fast Video Temporal Grounding**.
+Code for paper: **Learning Commonsense-aware Moment-Text Alignment for Fast Video Temporal Grounding**.
 
 ## Introduction
 
