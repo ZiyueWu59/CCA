@@ -1,0 +1,49 @@
+MODEL:
+  WEIGHT: ""
+  ARCHITECTURE: "CCA"
+  CCA:
+    NUM_CLIPS: 128
+    FEATPOOL:
+      INPUT_SIZE: 4096 # 1024
+      HIDDEN_SIZE: 512 #512
+      KERNEL_SIZE: 2
+    FEAT2D:
+      POOLING_COUNTS: [15,8,8,8]
+    INTEGRATOR: 
+      QUERY_HIDDEN_SIZE: 512
+      LSTM:
+        NUM_LAYERS: 3 #3
+        BIDIRECTIONAL: True #False
+    PREDICTOR:
+      HIDDEN_SIZE: 512
+      KERNEL_SIZE: 5
+      NUM_STACK_LAYERS: 8
+    LOSS:
+      MIN_IOU: 0.3
+      MAX_IOU: 0.7
+DATASETS:
+  TRAIN: ("tacos_train",) #("tacos_train", "tacos_val")
+  TEST: ("tacos_test",)
+INPUT:
+  NUM_PRE_CLIPS: 512 #256
+  PRE_QUERY_SIZE: 300
+DATALOADER:
+  NUM_WORKERS: 4
+SOLVER:
+  LR: 0.0001 #0.001
+  BATCH_SIZE: 32 #64
+  MILESTONES: (10,20,35) # (7, 14, 21, 30, 40) # #(6, 15)
+  MAX_EPOCH: 50
+TEST:
+  NMS_THRESH: 0.49 #0.4
+  BATCH_SIZE: 64 #64
+num_attribute: 624 # 610 + 14
+input_channel: 300
+embed_size: 512
+adj_file: ./tacos_concept/tacos_concept_adj.pkl
+norm_func_type: sigmoid
+inp_name: ./tacos_concept/tacos_concepts_glove_word2vec.pkl
+concept_name: ./tacos_concept/tacos_category_concepts.json
+com_concept: ./tacos_concept/tacos_com_graph.pkl
+com_emb: ./tacos_concept/tacos_test_concepts.pkl
+num_path: ./tacos_concept/tacos_dict.pkl
