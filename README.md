@@ -3,7 +3,7 @@ Code for paper: **Learning Commonsense-aware Moment-Text Alignment for Fast Vide
 
 **Paper is available [here](https://arxiv.org/pdf/2204.01450.pdf)**.
 
-*[Ziyue Wu], Junyu Gao, Shucheng Huang, Changsheng Xu*
+*Ziyue Wu, Junyu Gao, Shucheng Huang, Changsheng Xu*
 
 ## Introduction
 
