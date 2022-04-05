@@ -1,5 +1,5 @@
 # find all configs in configs/
-model=2dtan_64x64_pool_k9l4_activitynet
+model=cca_64x64_pool_k9l4_activitynet
 # set your gpu id
 gpus=0,1,2,3 #2,3,4,5
 # number of gpus
