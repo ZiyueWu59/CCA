@@ -1,5 +1,5 @@
 # find all configs in configs/
-model=2dtan_128x128_pool_k5l8_tacos
+model=cca_128x128_pool_k5l8_tacos
 # set your gpu id
 gpus=0,1,2,3 #2,3,4,5
 # number of gpus
