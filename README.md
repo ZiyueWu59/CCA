@@ -12,8 +12,8 @@ Grounding temporal video segments described in natural language queries effectiv
 ## Start
 We provide scripts for simplifying training and inference. Please refer to , script/eval.sh and script/eval_acnet.sh.
 
-For training model, please modify ''script/train.sh'' or ''script/train_acnet.sh'' and run:
+For training model, please modify [script/train.sh](script/train.sh) or ''script/train_acnet.sh'' and run:
 
-''python train.sh''
+`python train.sh`
 
-''python train_acnet.sh''
+`python train_acnet.sh`
