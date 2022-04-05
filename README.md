@@ -22,16 +22,22 @@ We provide scripts for simplifying training and inference. Please modify corresp
 
 ## Citation
 Please **Star** this repo and **cite** the following paper if you feel our CCA useful to your research:
-```@misc{2204.01450,
+
+```
+@misc{2204.01450,
 Author = {Ziyue Wu and Junyu Gao and Shucheng Huang and Changsheng Xu},
 Title = {Learning Commonsense-aware Moment-Text Alignment for Fast Video Temporal Grounding},
 Year = {2022},
 Eprint = {arXiv:2204.01450},
-}```
-```@inproceedings{gao2021fast,
+}
+```
+
+```
+@inproceedings{gao2021fast,
   title={Fast video moment retrieval},
   author={Gao, Junyu and Xu, Changsheng},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   pages={1523--1532},
   year={2021}
-}```
+}
+```
