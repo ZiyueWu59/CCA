@@ -10,6 +10,9 @@ Code for paper: **Learning Commonsense-aware Moment-Text Alignment for Fast Vide
 ### Abstract:
 Grounding temporal video segments described in natural language queries effectively and efficiently is a crucial capability needed in vision-and-language fields. In this paper, we deal with the fast video temporal grounding (FVTG) task, aiming at localizing the target segment with high speed and favorable accuracy. Most existing approaches adopt elaborately designed cross-modal interaction modules to improve the grounding performance, which suffer from the test-time bottleneck. Although several common space-based methods enjoy the high-speed merit during inference, they can hardly capture the comprehensive and explicit relations between visual and textual modalities. In this paper, to tackle the dilemma of speed-accuracy tradeoff, we propose a commonsense-aware cross-modal alignment (CCA) framework, which incorporates commonsense-guided visual and text representations into a complementary common space for fast video temporal grounding. Specifically, the commonsense concepts are explored and exploited by extracting the structural semantic information from a language corpus. Then, a commonsense-aware interaction module is designed to obtain bridged visual and text features by utilizing the learned commonsense concepts. Finally, to maintain the original semantic information of textual queries, a cross-modal complementary common space is optimized to obtain matching scores for performing FVTG. Extensive results on two challenging benchmarks show that our CCA method performs favorably against state-of-the-arts while running at high speed.
 
+## Overview of the proposed method:
+([framework.pdf](https://github.com/ZiyueWu59/CCA/files/8417691/framework.pdf))
+
 ## Download data
 **Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).**
 
@@ -26,11 +29,18 @@ We provide scripts for simplifying training and inference. Please modify corresp
 
 ## Main Results
 
-###TACoS
+### TACoS with C3D features
 
 |R@1,IoU=0.1|R@1,IoU=0.3|R@1,IoU=0.5|R@1,IoU=0.7|R@5,IoU=0.1|R@5,IoU=0.3|R@5,IoU=0.5|R@5,IoU=0.7|
-|---|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |56.00|45.30|32.83|18.07|76.60|64.38|52.68|33.10|
+
+### ActivityNet Captions with C3D features
+
+|R@1,IoU=0.3|R@1,IoU=0.5|R@1,IoU=0.7|R@5,IoU=0.3|R@5,IoU=0.5|R@5,IoU=0.7|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|60.58|46.19|28.87|86.02|77.86|60.28|
+
 
 ## Citation
 Please **Star** this repo and **cite** the following paper if you feel our CCA useful to your research:
