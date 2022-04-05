@@ -12,10 +12,26 @@ Grounding temporal video segments described in natural language queries effectiv
 ## Training and Inference
 We provide scripts for simplifying training and inference. Please modify corresponding file and run it.
 
-Training on TACoS:  [script/train_acnet.sh](script/train_acnet.sh).
+**Training on TACoS:**  [script/train_acnet.sh](script/train_acnet.sh).
 
-Training on ActivityNet Captions: [script/train.sh](script/train.sh).
+**Training on ActivityNet Captions:** [script/train.sh](script/train.sh).
 
-Evaluating on TACoS : [script/eval.sh](script/eval.sh)
+**Evaluating on TACoS:** [script/eval.sh](script/eval.sh)
 
-Evaluating on ActivtyNet Captions: [script/eval_acnet.sh](script/eval_acnet.sh)
+**Evaluating on ActivtyNet Captions:** [script/eval_acnet.sh](script/eval_acnet.sh)
+
+## Citation
+Please **Star** this repo and **cite** the following paper if you feel our CCA useful to your research:
+`@misc{2204.01450,
+Author = {Ziyue Wu and Junyu Gao and Shucheng Huang and Changsheng Xu},
+Title = {Learning Commonsense-aware Moment-Text Alignment for Fast Video Temporal Grounding},
+Year = {2022},
+Eprint = {arXiv:2204.01450},
+}`
+`@inproceedings{gao2021fast,
+  title={Fast video moment retrieval},
+  author={Gao, Junyu and Xu, Changsheng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={1523--1532},
+  year={2021}
+}`
