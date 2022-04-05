@@ -9,11 +9,13 @@ Grounding temporal video segments described in natural language queries effectiv
 ## Download data
 **Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).**
 
-## Start
-We provide scripts for simplifying training and inference. Please refer to , script/eval.sh and script/eval_acnet.sh.
+## Training and Inference
+We provide scripts for simplifying training and inference. Please modify corresponding file and run it.
 
-For training model, please modify [script/train.sh](script/train.sh) or ''script/train_acnet.sh'' and run:
+Training on TACoS:  [script/train_acnet.sh](script/train_acnet.sh).
 
-`python train.sh`
+Training on ActivityNet Captions: [script/train.sh](script/train.sh).
 
-`python train_acnet.sh`
+Evaluating on TACoS : [script/eval.sh](script/eval.sh)
+
+Evaluating on ActivtyNet Captions: [script/eval_acnet.sh](script/eval_acnet.sh)
