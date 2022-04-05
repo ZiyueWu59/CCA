@@ -81,7 +81,7 @@ We provide scripts for simplifying training and inference. Please modify corresp
 |CCA(ours)|**2.33**|0.29|**2.62**|**32.83**|**78.13**|
 
 ### 2.Speed-Accuracy on ActivityNet Captions
-
+0
 |Methods|TE|CML|ALL|ACC|sumACC|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |FVMR|3.14|**0.09**|3.23|45.00|106.60|
