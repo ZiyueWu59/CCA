@@ -28,11 +28,9 @@ We provide scripts for simplifying training and inference. Please modify corresp
 
 ###TACoS
 
-|R@1|R@5|
+|R@1,IoU=0.1|R@1,IoU=0.3|R@1,IoU=0.5|R@1,IoU=0.7|R@5,IoU=0.1|R@5,IoU=0.3|R@5,IoU=0.5|R@5,IoU=0.7|
 |---|---|---|---|---|---|---|---|
-|IoU=0.1|IoU=0.3|IoU=0.5|IoU=0.7|IoU=0.1|IoU=0.3|IoU=0.5|IoU=0.7|
 |56.00|45.30|32.83|18.07|76.60|64.38|52.68|33.10|
-|
 
 ## Citation
 Please **Star** this repo and **cite** the following paper if you feel our CCA useful to your research:
