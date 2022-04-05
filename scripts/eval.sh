@@ -1,5 +1,5 @@
 # find all configs in configs/
-config_file=configs/2dtan_128x128_pool_k5l8_tacos.yaml
+config_file=configs/cca_128x128_pool_k5l8_tacos.yaml
 # the dir of the saved weight
 weight_dir=checkpoints/tacos
 # select weight to evaluate
