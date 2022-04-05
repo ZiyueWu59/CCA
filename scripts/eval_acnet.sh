@@ -1,5 +1,5 @@
 # find all configs in configs/
-config_file=configs/2dtan_64x64_pool_k9l4_activitynet.yaml
+config_file=configs/cca_64x64_pool_k9l4_activitynet.yaml
 # the dir of the saved weight
 weight_dir=checkpoints/acnet
 # select weight to evaluate
