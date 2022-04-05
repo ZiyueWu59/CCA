@@ -12,9 +12,9 @@ Grounding temporal video segments described in natural language queries effectiv
 ## Training and Inference
 We provide scripts for simplifying training and inference. Please modify corresponding file and run it.
 
-**Training on TACoS:**  [script/train_acnet.sh](script/train_acnet.sh).
+**Training on TACoS:** [script/train.sh](script/train.sh).
 
-**Training on ActivityNet Captions:** [script/train.sh](script/train.sh).
+**Training on ActivityNet Captions:** [script/train_acnet.sh](script/train_acnet.sh).
 
 **Evaluating on TACoS:** [script/eval.sh](script/eval.sh)
 
