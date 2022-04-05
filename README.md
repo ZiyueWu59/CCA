@@ -14,6 +14,7 @@ Grounding temporal video segments described in natural language queries effectiv
 ![framework_00](https://user-images.githubusercontent.com/102899678/161745291-fb0654f5-5e0b-46c0-b610-015b095c040f.png)
 
 ## Requirements and Installation
+We recommended the following dependencies.
 
 - CUDA >= 11.0
 - Python 3.7
