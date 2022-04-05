@@ -29,7 +29,36 @@ We recommended the following dependencies.
 - tqdm
 
 ## Download data
-**Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).**
+**Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).** 
+
+The folder structure should be as follows:
+```
+.
+├── checkpoints
+│   ├── tacos
+│   └── acnet
+├── data
+│   ├── TACoS
+│   │    ├── tall_c3d_features.hdf5
+│   │    └── ...
+│   └── ActivityNet
+│       ├── sub_activitynet_v1-3.c3d.hdf5
+│       └── ...
+│
+├── scripts
+│    ├── train.sh
+│    ├── eval.sh
+│    └── ...
+|
+├── configs
+│
+├── cca
+│   ├── modeling
+│   └── ...
+|
+├── train_net.py
+└── test_net.py
+```
 
 ## Training and Inference
 We provide scripts for simplifying training and inference. Please modify corresponding file and run it.
@@ -75,7 +104,7 @@ We provide scripts for simplifying training and inference. Please modify corresp
 Please **Star** this repo and **cite** the following paper if you feel our CCA useful to your research:
 
 ```
-@article{wu2022commonsense,
+@article{wu2022learning,
   title={Learning Commonsense-aware Moment-Text Alignment for Fast Video Temporal Grounding},
   author={Wu, Ziyue and Gao, Junyu and Huang, Shucheng and Xu, Changsheng},
   journal={arXiv preprint arXiv:2204.01450},
