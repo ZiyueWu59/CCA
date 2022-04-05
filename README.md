@@ -35,14 +35,14 @@ We provide scripts for simplifying training and inference. Please modify corresp
 |Methods|TE|CML|ALL|ACC|sumACC|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |FVMR|3.51|0.14|3.65|29.12|70.60|
-|**CCA(ours)|2.33|0.29|2.62|32.83|78.13|**
+|CCA(ours)|2.33|0.29|2.62|32.83|78.13|
 
 ### 2.Speed-Accuracy on ActivityNet Captions
 
 |Methods|TE|CML|ALL|ACC|sumACC|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |FVMR|3.14|0.09|3.23|45.00|106.60|
-|**CCA(ours)|2.80|0.30|3.10|46.19|106.77|**
+|CCA(ours)|2.80|0.30|3.10|46.19|106.77|
 
 ### 3.TACoS with C3D features
 
