@@ -29,7 +29,7 @@ We recommended the following dependencies.
 - tqdm
 
 ## Download data
-**Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).(uploading)** 
+**Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).(Uploading)** 
 
 The folder structure should be as follows:
 ```
@@ -101,7 +101,7 @@ We provide scripts for simplifying training and inference. Please modify corresp
 
 
 ## Citation
-Please **Star** this repo and **cite** the following paper if you feel our CCA useful to your research:
+Please **Star** this repo and **Cite** the following paper if you feel our CCA useful to your research:
 
 ```
 @article{wu2022learning,
