@@ -29,7 +29,7 @@ We recommended the following dependencies.
 - tqdm
 
 ## Download data
-**Download the dataset files and pre-trained model files from [here](https://drive.google.com/drive/folders/1vpJWo7ZtVgrVyKQrtd8kfcY7GZeVYD0V?usp=sharing).(Uploading)** 
+**Download the dataset files and pre-trained model files from [BaiduPan](https://pan.baidu.com/s/10Ys9CdwP5G2czFC9YB8moA?pwd=w5r1), password:w5r1.** 
 
 The folder structure should be as follows:
 ```
