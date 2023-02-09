@@ -88,7 +88,7 @@ _C.TEST.NMS_THRESH = 0.4
 # ---------------------------------------------------------------------------- #
 _C.OUTPUT_DIR = "."
 _C.PATHS_CATALOG = os.path.join(os.path.dirname(__file__), "paths_catalog.py")
-# cvse
+
 _C.num_attribute = 300
 _C.input_channel = 300
 _C.embed_size = 1024
