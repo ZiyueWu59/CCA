@@ -15,7 +15,7 @@ def main():
     parser = argparse.ArgumentParser(description="cca")
     parser.add_argument(
         "--config-file",
-        default="configs/2dtan_128x128_pool_k5l8_tacos.yaml",
+        default="configs/cca_128x128_pool_k5l8_tacos.yaml",
         metavar="FILE",
         help="path to config file",
     )
